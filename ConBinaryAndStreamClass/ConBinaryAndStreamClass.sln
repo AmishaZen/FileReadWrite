@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConBinaryAndStreamClass", "ConBinaryAndStreamClass\ConBinaryAndStreamClass.csproj", "{6C9F6BFD-1BED-484D-AAD7-7B323205F881}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C9F6BFD-1BED-484D-AAD7-7B323205F881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9F6BFD-1BED-484D-AAD7-7B323205F881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9F6BFD-1BED-484D-AAD7-7B323205F881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9F6BFD-1BED-484D-AAD7-7B323205F881}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11C5092E-B9F8-49EE-ACD9-27DFA823FF2A}
+	EndGlobalSection
+EndGlobal
