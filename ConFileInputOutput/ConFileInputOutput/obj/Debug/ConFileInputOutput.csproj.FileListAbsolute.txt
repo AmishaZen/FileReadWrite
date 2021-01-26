@@ -1,0 +1,7 @@
+D:\DotNETBatch2021\Assignments\ConsoleAssignment25Jan2021\ConFileInputOutput\ConFileInputOutput\bin\Debug\ConFileInputOutput.exe.config
+D:\DotNETBatch2021\Assignments\ConsoleAssignment25Jan2021\ConFileInputOutput\ConFileInputOutput\bin\Debug\ConFileInputOutput.exe
+D:\DotNETBatch2021\Assignments\ConsoleAssignment25Jan2021\ConFileInputOutput\ConFileInputOutput\bin\Debug\ConFileInputOutput.pdb
+D:\DotNETBatch2021\Assignments\ConsoleAssignment25Jan2021\ConFileInputOutput\ConFileInputOutput\obj\Debug\ConFileInputOutput.csprojAssemblyReference.cache
+D:\DotNETBatch2021\Assignments\ConsoleAssignment25Jan2021\ConFileInputOutput\ConFileInputOutput\obj\Debug\ConFileInputOutput.csproj.CoreCompileInputs.cache
+D:\DotNETBatch2021\Assignments\ConsoleAssignment25Jan2021\ConFileInputOutput\ConFileInputOutput\obj\Debug\ConFileInputOutput.exe
+D:\DotNETBatch2021\Assignments\ConsoleAssignment25Jan2021\ConFileInputOutput\ConFileInputOutput\obj\Debug\ConFileInputOutput.pdb
