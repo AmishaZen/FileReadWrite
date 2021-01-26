@@ -9,27 +9,50 @@ namespace ConFileInputOutput
 {
     class Program
     {
-        static void Main(string[] args)
+        static void WriteIntoFile()
         {
-            //StreamReader srr = null;
-            using (FileStream fstream = new FileStream("G:\\input.txt", FileMode.Create, FileAccess.ReadWrite))
+            try
             {
-                using (StreamWriter srr = new StreamWriter(fstream))
-                { 
-                   Console.WriteLine("Write content to enter into File : ");
-                   srr.WriteLine(Console.ReadLine());
-                }
-                using (StreamReader sr = new StreamReader("G:\\input.txt"))
+                using (FileStream fstream = new FileStream(@"D:\DotNETBatch2021\Assignments\ConsoleAssignment25Jan2021\ConFileInputOutput\ConFileInputOutput\file.txt", FileMode.Create, FileAccess.ReadWrite))
                 {
-                    //string line;
-                    //while((line = sr.ReadLine()) != null)
-                    //{
-                    //    Console.WriteLine(line);
-                    //}
-                   Console.WriteLine("Reading contents of input.txt : \n" + sr.ReadToEnd());
-                    
+                    using (StreamWriter srr = new StreamWriter(fstream))
+                    {
+                        
+                        Console.WriteLine("Write content to enter into File : ");
+                        srr.WriteLine(Console.ReadLine());
+                       
+                    }
                 }
             }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        static void ReadFromFile()
+        {
+            try
+            {
+                using (StreamReader sr = new StreamReader(@"D:\DotNETBatch2021\Assignments\ConsoleAssignment25Jan2021\ConFileInputOutput\ConFileInputOutput\file.txt"))
+                {
+
+                    Console.WriteLine("Reading contents of input.txt : \n" + sr.ReadToEnd());
+                    
+
+                }
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+        static void Main(string[] args)
+        {
+            
+            Program.WriteIntoFile();
+            Program.ReadFromFile();
+            
         }
     }
 }
