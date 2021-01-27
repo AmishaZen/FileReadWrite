@@ -17,10 +17,18 @@ namespace ConFileInputOutput
                 {
                     using (StreamWriter srr = new StreamWriter(fstream))
                     {
-                        
-                        Console.WriteLine("Write content to enter into File : ");
-                        srr.WriteLine(Console.ReadLine());
-                       
+                        Console.WriteLine("Enter the String to write in file :");
+                        string str = null;
+                        while (str != "&")
+                        {
+                            str = Console.ReadLine();
+                            if (str != "&")
+                            {
+                                srr.WriteLine(str);
+                            }
+                        }
+
+
                     }
                 }
             }
@@ -38,21 +46,20 @@ namespace ConFileInputOutput
                 {
 
                     Console.WriteLine("Reading contents of input.txt : \n" + sr.ReadToEnd());
-                    
 
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
         }
         static void Main(string[] args)
         {
-            
+
             Program.WriteIntoFile();
             Program.ReadFromFile();
-            
+
         }
     }
 }
